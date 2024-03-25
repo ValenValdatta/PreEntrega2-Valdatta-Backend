@@ -1,5 +1,5 @@
-const fs = require("fs");
-const crypto = require("crypto");
+import fs from "fs";
+import crypto from "crypto";
 
 class UserManager {
    constructor() {
@@ -41,21 +41,29 @@ class UserManager {
          throw error;
       }
    }
-   async read() {
+   async read(role = null) {
       try {
          let all = await fs.promises.readFile(this.path, "utf-8");
          all = JSON.parse(all);
-         console.log(all);
-         return all;
+         if(all.length === 0){
+            throw new Error("no hay usuarios para mostrar")
+         }
+         if (role !== null){
+            all = all.filter(each => each.role === role)
+            return all
+         } else {
+            console.log(all);
+            return all
+         }        
       } catch (error) {
          throw error;
       }
    }
-   async readOne(id) {
+   async readOne(uid) {
       try {
          let all = await fs.promises.readFile(this.path, "utf-8");
          all = JSON.parse(all);
-         let one = all.find((each) => each.id === id);
+         let one = all.find((each) => each.id === uid);
          if (!one) {
             throw new Error("no se encontro el id");
          } else {
@@ -114,11 +122,14 @@ async function crearUsuario() {
          role: "user",
       });
       await user.read();
-      await user.readOne("42b0072a992c4a9c302a924d");
-      // await user.destroy();
+      // await user.readOne("c8e1de61c5cc8eeabcf59fa0");
+      // await user.destroy("612b2aefd43e55902071a430");
    } catch (error) {
       throw error 
    }
 }
 
-crearUsuario();
+// crearUsuario();
+
+const userManager = new UserManager()
+export default userManager

@@ -1,5 +1,5 @@
-const fs = require("fs");
-const crypto = require("crypto");
+import fs from "fs";
+import crypto from "crypto";
 
 class ProductManager {
    constructor() {
@@ -42,25 +42,35 @@ class ProductManager {
          throw error;
       }
    }
-   async read() {
+   async read(cat = null) {
       try {
          let all = await fs.promises.readFile(this.path, "utf-8");
          all = JSON.parse(all);
-         console.log(all);
-         return all;
+         //DEBAJO ES EL FILTRO PARA QUE FILTRE CATEGORIAS POR QUERY 
+         if(all.length === 0){
+            throw new Error("no hay productos para leer")
+         }
+         if(cat !== null) {
+            all = all.filter(each => each.category === cat)
+            return all
+         } else {
+            console.log(all);
+            return all;
+         }
       } catch (error) {
          throw error;
       }
    }
-   async readOne(id) {
+   async readOne(pid) {
       try {
          let all = await fs.promises.readFile(this.path, "utf-8");
          all = JSON.parse(all);
-         let one = all.find((each) => each.id === id);
+         let one = all.find((each) => each.id === pid);
          if (!one) {
             throw new Error("no se encontro el id");
          } else {
             console.log(one);
+            console.log("Se ha leido el producto"+ pid);
             return one;
          }
       } catch (error) {
@@ -160,12 +170,85 @@ async function crearProducto() {
          price: 100,
          stock: 55,
       });
+      await product.create({
+         title: "ASUS",
+         photo: "https://http2.mlstatic.com/D_NQ_NP_2X_952312-MLU74957524509_032024-F.webp",
+         category: "Notebook",
+         price: 380,
+         stock: 25,
+      });
+      await product.create({
+         title: "Gigabyte",
+         photo: "https://http2.mlstatic.com/D_NQ_NP_2X_877188-MLU72635661279_112023-F.webp",
+         category: "Disco SSD",
+         price: 95,
+         stock: 60,
+      });
+      await product.create({
+         title: "Samsung",
+         photo: "https://http2.mlstatic.com/D_NQ_NP_2X_722684-MLU72859230576_112023-F.webp",
+         category: "Televisores",
+         price: 300,
+         stock: 45,
+      });
+      await product.create({
+         title: "Noblex",
+         photo: "https://http2.mlstatic.com/D_NQ_NP_2X_634578-MLA51821138734_102022-F.webp",
+         category: "Televisores",
+         price: 200,
+         stock: 66,
+      });
+      await product.create({
+         title: "Sony",
+         photo: "https://http2.mlstatic.com/D_NQ_NP_2X_793501-MLA46946723649_082021-F.webp",
+         category: "Parlantes",
+         price: 400,
+         stock: 25,
+      });
+      await product.create({
+         title: "JBL",
+         photo: "https://http2.mlstatic.com/D_NQ_NP_2X_651387-MLU73885145681_012024-F.webp",
+         category: "Auriculares",
+         price: 50,
+         stock: 75,
+      });
+      await product.create({
+         title: "Gadnic",
+         photo: "https://http2.mlstatic.com/D_NQ_NP_2X_983632-MLU72564532828_112023-F.webp",
+         category: "Smartwatch",
+         price: 70,
+         stock: 65,
+      });
+      await product.create({
+         title: "Xiaomi",
+         photo: "https://http2.mlstatic.com/D_NQ_NP_2X_942099-MLA49011470720_022022-F.webp",
+         category: "Smartwatch",
+         price: 60,
+         stock: 25,
+      });
+      await product.create({
+         title: "DELL",
+         photo: "https://http2.mlstatic.com/D_NQ_NP_2X_696185-MLA54896761378_042023-F.webp",
+         category: "Notebook",
+         price: 420,
+         stock: 37,
+      });
+      await product.create({
+         title: "Sennheiser",
+         photo: "https://http2.mlstatic.com/D_NQ_NP_2X_869047-MLU73664511884_012024-F.webp",
+         category: "Auriculares",
+         price: 200,
+         stock: 15,
+      });
       await product.read();
-      await product.readOne("7356585147d4b6cd7c727d6e");
-      // await product.destroy("755d8d53b884efad6b431858");
+      // await product.readOne("cc5e11bec04c8abe6e25f401");
+      // await product.destroy("e47553490765213afb192d01");
    } catch (error) {
       console.log(error);
    }
 }
 
-crearProducto();
+// crearProducto()
+
+const productManager = new ProductManager()
+export default productManager

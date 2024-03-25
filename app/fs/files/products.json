@@ -1,0 +1,162 @@
+[
+  {
+    "id": "23be286eea351eff7e194d69",
+    "title": "Samsung",
+    "photo": "https://http2.mlstatic.com/D_NQ_NP_2X_999462-MLA54226388761_032023-F.webp",
+    "category": "Celular",
+    "price": 200,
+    "stock": 100
+  },
+  {
+    "id": "7d275abb8fe2b40b8d173bba",
+    "title": "Apple",
+    "photo": "https://http2.mlstatic.com/D_NQ_NP_2X_803992-MLA52988770428_122022-F.webp",
+    "category": "Ipad",
+    "price": 350,
+    "stock": 50
+  },
+  {
+    "id": "2241020223db82b8ef22b497",
+    "title": "Motorola",
+    "photo": "https://http2.mlstatic.com/D_NQ_NP_2X_648883-MLU74182500303_012024-F.webp",
+    "category": "Celular",
+    "price": 180,
+    "stock": 150
+  },
+  {
+    "id": "d58e9caea1fd963a8b99cf35",
+    "title": "LG",
+    "photo": "https://http2.mlstatic.com/D_NQ_NP_2X_890387-MLU72561172985_102023-F.webp",
+    "category": "Televisores",
+    "price": 250,
+    "stock": 70
+  },
+  {
+    "id": "127bf2b8c8457efaf689a417",
+    "title": "Samsung",
+    "photo": "https://http2.mlstatic.com/D_NQ_NP_2X_932527-MLU74941617888_032024-F.webp",
+    "category": "Smartwatch",
+    "price": 150,
+    "stock": 40
+  },
+  {
+    "id": "fd95d2252fc3b5c7af1787cf",
+    "title": "Redmi",
+    "photo": "https://http2.mlstatic.com/D_NQ_NP_2X_677855-MLA71570451917_092023-F.webp",
+    "category": "Auriculares",
+    "price": 50,
+    "stock": 100
+  },
+  {
+    "id": "34882c82f978b46b47457ea2",
+    "title": "Thonet & Vander",
+    "photo": "https://http2.mlstatic.com/D_NQ_NP_2X_983546-MLA46639054784_072021-F.webp",
+    "category": "Parlantes",
+    "price": 200,
+    "stock": 25
+  },
+  {
+    "id": "7c483a18ee05fa78dd63e4ee",
+    "title": "Lenovo",
+    "photo": "https://http2.mlstatic.com/D_NQ_NP_2X_955406-MLU75052357569_032024-F.webp",
+    "category": "Notebook",
+    "price": 400,
+    "stock": 20
+  },
+  {
+    "id": "947b7af7f916f793fe4b3a12",
+    "title": "Iphone",
+    "photo": "https://http2.mlstatic.com/D_NQ_NP_2X_779617-MLA71782867320_092023-F.webp",
+    "category": "Celular",
+    "price": 300,
+    "stock": 45
+  },
+  {
+    "id": "cf1e77c1055f1134de25e385",
+    "title": "Kingstone",
+    "photo": "https://http2.mlstatic.com/D_NQ_NP_2X_633091-MLA72513712313_102023-F.webp",
+    "category": "Disco SSD",
+    "price": 100,
+    "stock": 55
+  },
+  {
+    "id": "19ed83f7f063443f476aca22",
+    "title": "ASUS",
+    "photo": "https://http2.mlstatic.com/D_NQ_NP_2X_952312-MLU74957524509_032024-F.webp",
+    "category": "Notebook",
+    "price": 380,
+    "stock": 25
+  },
+  {
+    "id": "d10b2497d522aff72508b62e",
+    "title": "Gigabyte",
+    "photo": "https://http2.mlstatic.com/D_NQ_NP_2X_877188-MLU72635661279_112023-F.webp",
+    "category": "Disco SSD",
+    "price": 95,
+    "stock": 60
+  },
+  {
+    "id": "2a6820da32614cdc9b92bd56",
+    "title": "Samsung",
+    "photo": "https://http2.mlstatic.com/D_NQ_NP_2X_722684-MLU72859230576_112023-F.webp",
+    "category": "Televisores",
+    "price": 300,
+    "stock": 45
+  },
+  {
+    "id": "11a122218259e53107d5f29c",
+    "title": "Noblex",
+    "photo": "https://http2.mlstatic.com/D_NQ_NP_2X_634578-MLA51821138734_102022-F.webp",
+    "category": "Televisores",
+    "price": 200,
+    "stock": 66
+  },
+  {
+    "id": "7f1398d2fc1c60a5f02fe8f7",
+    "title": "Sony",
+    "photo": "https://http2.mlstatic.com/D_NQ_NP_2X_793501-MLA46946723649_082021-F.webp",
+    "category": "Parlantes",
+    "price": 400,
+    "stock": 25
+  },
+  {
+    "id": "c78fddc3b8ba226a5a95cb7a",
+    "title": "JBL",
+    "photo": "https://http2.mlstatic.com/D_NQ_NP_2X_651387-MLU73885145681_012024-F.webp",
+    "category": "Auriculares",
+    "price": 50,
+    "stock": 75
+  },
+  {
+    "id": "099ad012cfc91eadb1e5746b",
+    "title": "Gadnic",
+    "photo": "https://http2.mlstatic.com/D_NQ_NP_2X_983632-MLU72564532828_112023-F.webp",
+    "category": "Smartwatch",
+    "price": 70,
+    "stock": 65
+  },
+  {
+    "id": "7f2ee041d7e5fe6c31229212",
+    "title": "Xiaomi",
+    "photo": "https://http2.mlstatic.com/D_NQ_NP_2X_942099-MLA49011470720_022022-F.webp",
+    "category": "Smartwatch",
+    "price": 60,
+    "stock": 25
+  },
+  {
+    "id": "70528dd57e734c2315b20653",
+    "title": "DELL",
+    "photo": "https://http2.mlstatic.com/D_NQ_NP_2X_696185-MLA54896761378_042023-F.webp",
+    "category": "Notebook",
+    "price": 420,
+    "stock": 37
+  },
+  {
+    "id": "7f4eafe439dcad3fb6946df5",
+    "title": "Sennheiser",
+    "photo": "https://http2.mlstatic.com/D_NQ_NP_2X_869047-MLU73664511884_012024-F.webp",
+    "category": "Auriculares",
+    "price": 200,
+    "stock": 15
+  }
+]
