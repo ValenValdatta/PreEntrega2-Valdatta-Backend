@@ -61,6 +61,7 @@ class ProductManager {
             throw new Error("no se encontro el id");
          } else {
             console.log(one);
+            console.log("Se ha leido el producto"+ id);
             return one;
          }
       } catch (error) {
@@ -161,8 +162,8 @@ async function crearProducto() {
          stock: 55,
       });
       await product.read();
-      await product.readOne("7356585147d4b6cd7c727d6e");
-      // await product.destroy("755d8d53b884efad6b431858");
+      await product.readOne("e58c7a978f2d78205770cf38");
+      await product.destroy("fa432a8a1d0b054e411b0244");
    } catch (error) {
       console.log(error);
    }

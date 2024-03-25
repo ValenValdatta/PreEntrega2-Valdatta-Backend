@@ -1,0 +1,314 @@
+[
+  {
+    "id": "e5469c29c404e9b31bc6fcec",
+    "title": "Apple",
+    "photo": "https://http2.mlstatic.com/D_NQ_NP_2X_803992-MLA52988770428_122022-F.webp",
+    "category": "Ipad",
+    "price": 350,
+    "stock": 50
+  },
+  {
+    "id": "cc5e11bec04c8abe6e25f401",
+    "title": "Motorola",
+    "photo": "https://http2.mlstatic.com/D_NQ_NP_2X_648883-MLU74182500303_012024-F.webp",
+    "category": "Celular",
+    "price": 180,
+    "stock": 150
+  },
+  {
+    "id": "40ca48ee156ad8c9c1ea62a8",
+    "title": "LG",
+    "photo": "https://http2.mlstatic.com/D_NQ_NP_2X_890387-MLU72561172985_102023-F.webp",
+    "category": "Televisores",
+    "price": 250,
+    "stock": 70
+  },
+  {
+    "id": "e47553490765213afb192d01",
+    "title": "Samsung",
+    "photo": "https://http2.mlstatic.com/D_NQ_NP_2X_932527-MLU74941617888_032024-F.webp",
+    "category": "Smartwatch",
+    "price": 150,
+    "stock": 40
+  },
+  {
+    "id": "cfe1de8b794d8df63a6d1eff",
+    "title": "Redmi",
+    "photo": "https://http2.mlstatic.com/D_NQ_NP_2X_677855-MLA71570451917_092023-F.webp",
+    "category": "Auriculares",
+    "price": 50,
+    "stock": 100
+  },
+  {
+    "id": "6b3ea47baf5aadfb08d4c147",
+    "title": "Thonet & Vander",
+    "photo": "https://http2.mlstatic.com/D_NQ_NP_2X_983546-MLA46639054784_072021-F.webp",
+    "category": "Parlantes",
+    "price": 200,
+    "stock": 25
+  },
+  {
+    "id": "f20ff53ef73ee0d15708ca74",
+    "title": "Lenovo",
+    "photo": "https://http2.mlstatic.com/D_NQ_NP_2X_955406-MLU75052357569_032024-F.webp",
+    "category": "Notebook",
+    "price": 400,
+    "stock": 20
+  },
+  {
+    "id": "ab41820b64dde47d97a30c64",
+    "title": "Iphone",
+    "photo": "https://http2.mlstatic.com/D_NQ_NP_2X_779617-MLA71782867320_092023-F.webp",
+    "category": "Celular",
+    "price": 300,
+    "stock": 45
+  },
+  {
+    "id": "e58c7a978f2d78205770cf38",
+    "title": "Kingstone",
+    "photo": "https://http2.mlstatic.com/D_NQ_NP_2X_633091-MLA72513712313_102023-F.webp",
+    "category": "Disco SSD",
+    "price": 100,
+    "stock": 55
+  },
+  {
+    "id": "650c4df2c62527d233862f24",
+    "title": "Samsung",
+    "photo": "https://http2.mlstatic.com/D_NQ_NP_2X_999462-MLA54226388761_032023-F.webp",
+    "category": "Celular",
+    "price": 200,
+    "stock": 100
+  },
+  {
+    "id": "e9e5cbee856b2a8e4b89aa82",
+    "title": "Apple",
+    "photo": "https://http2.mlstatic.com/D_NQ_NP_2X_803992-MLA52988770428_122022-F.webp",
+    "category": "Ipad",
+    "price": 350,
+    "stock": 50
+  },
+  {
+    "id": "56425360d1724308891cb523",
+    "title": "Motorola",
+    "photo": "https://http2.mlstatic.com/D_NQ_NP_2X_648883-MLU74182500303_012024-F.webp",
+    "category": "Celular",
+    "price": 180,
+    "stock": 150
+  },
+  {
+    "id": "ac5f6e451b0ceb3cd83ba8b8",
+    "title": "LG",
+    "photo": "https://http2.mlstatic.com/D_NQ_NP_2X_890387-MLU72561172985_102023-F.webp",
+    "category": "Televisores",
+    "price": 250,
+    "stock": 70
+  },
+  {
+    "id": "3db5209ceab75d3134b688d5",
+    "title": "Samsung",
+    "photo": "https://http2.mlstatic.com/D_NQ_NP_2X_932527-MLU74941617888_032024-F.webp",
+    "category": "Smartwatch",
+    "price": 150,
+    "stock": 40
+  },
+  {
+    "id": "6a0f9f0278c78062328750a0",
+    "title": "Redmi",
+    "photo": "https://http2.mlstatic.com/D_NQ_NP_2X_677855-MLA71570451917_092023-F.webp",
+    "category": "Auriculares",
+    "price": 50,
+    "stock": 100
+  },
+  {
+    "id": "09c16f4928c2e76416cc7a5e",
+    "title": "Thonet & Vander",
+    "photo": "https://http2.mlstatic.com/D_NQ_NP_2X_983546-MLA46639054784_072021-F.webp",
+    "category": "Parlantes",
+    "price": 200,
+    "stock": 25
+  },
+  {
+    "id": "5f1119c8622edcacd66ac668",
+    "title": "Lenovo",
+    "photo": "https://http2.mlstatic.com/D_NQ_NP_2X_955406-MLU75052357569_032024-F.webp",
+    "category": "Notebook",
+    "price": 400,
+    "stock": 20
+  },
+  {
+    "id": "b0e04499925e2c428be42392",
+    "title": "Iphone",
+    "photo": "https://http2.mlstatic.com/D_NQ_NP_2X_779617-MLA71782867320_092023-F.webp",
+    "category": "Celular",
+    "price": 300,
+    "stock": 45
+  },
+  {
+    "id": "00928ad60d05a844380337c9",
+    "title": "Kingstone",
+    "photo": "https://http2.mlstatic.com/D_NQ_NP_2X_633091-MLA72513712313_102023-F.webp",
+    "category": "Disco SSD",
+    "price": 100,
+    "stock": 55
+  },
+  {
+    "id": "23033578f0a824d1df17a4d8",
+    "title": "Samsung",
+    "photo": "https://http2.mlstatic.com/D_NQ_NP_2X_999462-MLA54226388761_032023-F.webp",
+    "category": "Celular",
+    "price": 200,
+    "stock": 100
+  },
+  {
+    "id": "3d35bd7a58c298ecd1e2e197",
+    "title": "Apple",
+    "photo": "https://http2.mlstatic.com/D_NQ_NP_2X_803992-MLA52988770428_122022-F.webp",
+    "category": "Ipad",
+    "price": 350,
+    "stock": 50
+  },
+  {
+    "id": "d7ee31c49e04527a8309d5c0",
+    "title": "Motorola",
+    "photo": "https://http2.mlstatic.com/D_NQ_NP_2X_648883-MLU74182500303_012024-F.webp",
+    "category": "Celular",
+    "price": 180,
+    "stock": 150
+  },
+  {
+    "id": "486f65c92a8ecd7b7461b603",
+    "title": "LG",
+    "photo": "https://http2.mlstatic.com/D_NQ_NP_2X_890387-MLU72561172985_102023-F.webp",
+    "category": "Televisores",
+    "price": 250,
+    "stock": 70
+  },
+  {
+    "id": "d6d09031ba5d648e7d736931",
+    "title": "Samsung",
+    "photo": "https://http2.mlstatic.com/D_NQ_NP_2X_932527-MLU74941617888_032024-F.webp",
+    "category": "Smartwatch",
+    "price": 150,
+    "stock": 40
+  },
+  {
+    "id": "162f8fe0159f21bd51dd91c7",
+    "title": "Redmi",
+    "photo": "https://http2.mlstatic.com/D_NQ_NP_2X_677855-MLA71570451917_092023-F.webp",
+    "category": "Auriculares",
+    "price": 50,
+    "stock": 100
+  },
+  {
+    "id": "af1789ed644481b01dd0ce80",
+    "title": "Thonet & Vander",
+    "photo": "https://http2.mlstatic.com/D_NQ_NP_2X_983546-MLA46639054784_072021-F.webp",
+    "category": "Parlantes",
+    "price": 200,
+    "stock": 25
+  },
+  {
+    "id": "344bfb8d9e3a8bde040889d8",
+    "title": "Lenovo",
+    "photo": "https://http2.mlstatic.com/D_NQ_NP_2X_955406-MLU75052357569_032024-F.webp",
+    "category": "Notebook",
+    "price": 400,
+    "stock": 20
+  },
+  {
+    "id": "7a2c571bbeb061d3399c71bc",
+    "title": "Iphone",
+    "photo": "https://http2.mlstatic.com/D_NQ_NP_2X_779617-MLA71782867320_092023-F.webp",
+    "category": "Celular",
+    "price": 300,
+    "stock": 45
+  },
+  {
+    "id": "3ca6a528a1b1c9a64ce8655f",
+    "title": "Kingstone",
+    "photo": "https://http2.mlstatic.com/D_NQ_NP_2X_633091-MLA72513712313_102023-F.webp",
+    "category": "Disco SSD",
+    "price": 100,
+    "stock": 55
+  },
+  {
+    "id": "09728409b5db19ba61108f2c",
+    "title": "Samsung",
+    "photo": "https://http2.mlstatic.com/D_NQ_NP_2X_999462-MLA54226388761_032023-F.webp",
+    "category": "Celular",
+    "price": 200,
+    "stock": 100
+  },
+  {
+    "id": "d3b8c2cd363bd6783b7aa204",
+    "title": "Apple",
+    "photo": "https://http2.mlstatic.com/D_NQ_NP_2X_803992-MLA52988770428_122022-F.webp",
+    "category": "Ipad",
+    "price": 350,
+    "stock": 50
+  },
+  {
+    "id": "edea8a7aca61a982212f81dd",
+    "title": "Motorola",
+    "photo": "https://http2.mlstatic.com/D_NQ_NP_2X_648883-MLU74182500303_012024-F.webp",
+    "category": "Celular",
+    "price": 180,
+    "stock": 150
+  },
+  {
+    "id": "4b9911b988dbda3d119a0e5c",
+    "title": "LG",
+    "photo": "https://http2.mlstatic.com/D_NQ_NP_2X_890387-MLU72561172985_102023-F.webp",
+    "category": "Televisores",
+    "price": 250,
+    "stock": 70
+  },
+  {
+    "id": "343d78b8fe2c3a67c7303e63",
+    "title": "Samsung",
+    "photo": "https://http2.mlstatic.com/D_NQ_NP_2X_932527-MLU74941617888_032024-F.webp",
+    "category": "Smartwatch",
+    "price": 150,
+    "stock": 40
+  },
+  {
+    "id": "a25f3a82a2e68117dc07c675",
+    "title": "Redmi",
+    "photo": "https://http2.mlstatic.com/D_NQ_NP_2X_677855-MLA71570451917_092023-F.webp",
+    "category": "Auriculares",
+    "price": 50,
+    "stock": 100
+  },
+  {
+    "id": "27610c4b3b4573e47a258406",
+    "title": "Thonet & Vander",
+    "photo": "https://http2.mlstatic.com/D_NQ_NP_2X_983546-MLA46639054784_072021-F.webp",
+    "category": "Parlantes",
+    "price": 200,
+    "stock": 25
+  },
+  {
+    "id": "d4c6fe8293b445c8e4ef4845",
+    "title": "Lenovo",
+    "photo": "https://http2.mlstatic.com/D_NQ_NP_2X_955406-MLU75052357569_032024-F.webp",
+    "category": "Notebook",
+    "price": 400,
+    "stock": 20
+  },
+  {
+    "id": "8d8a7fa63ca417d65892fbde",
+    "title": "Iphone",
+    "photo": "https://http2.mlstatic.com/D_NQ_NP_2X_779617-MLA71782867320_092023-F.webp",
+    "category": "Celular",
+    "price": 300,
+    "stock": 45
+  },
+  {
+    "id": "3ff663f831ef224a6e822809",
+    "title": "Kingstone",
+    "photo": "https://http2.mlstatic.com/D_NQ_NP_2X_633091-MLA72513712313_102023-F.webp",
+    "category": "Disco SSD",
+    "price": 100,
+    "stock": 55
+  }
+]

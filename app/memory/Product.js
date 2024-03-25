@@ -1,38 +1,37 @@
+const crypto = require("crypto");
+
 class ProductManager {
    static quantity = 0;
 
    static #product = [];
 
-   async create(data) {
+   create(data) {
       try {
          const product = {
-            id:
-               ProductManager.quantity === 0
-                  ? 1
-                  : ProductManager.#product[ProductManager.quantity - 1].id + 1,
+            id: crypto.randomBytes(12).toString("hex"),
             title: data.title,
             photo: data.photo,
             category: data.category,
             price: data.price,
             stock: data.stock,
          };
-         ProductManager.#product.push(product) && ProductManager.quantity++;
+         ProductManager.#product.push(product);
       } catch (error) {
          throw error;
       }
    }
-   async read() {
+   read() {
       try {
          return ProductManager.#product;
       } catch (error) {
          throw error;
       }
    }
-   async readOne(id) {
+   readOne(id) {
       try {
-         let one = await ProductManager.#product.find((each) => each === id);
+         let one = ProductManager.#product.find((each) => each.id === id);
          if (!one) {
-            throw new Error("el producto no existe!");
+            throw new Error("no existe el id del producto");
          } else {
             console.log(one);
             return one;
@@ -41,9 +40,9 @@ class ProductManager {
          throw error;
       }
    }
-   async destroy(id) {
+   destroy(id) {
       try {
-         let one = await ProductManager.#product.find((each) => each === id);
+         let one = ProductManager.#product.find((each) => each.id === id);
          if (!one) {
             throw new Error("el producto no existe!");
          } else {
@@ -57,7 +56,7 @@ class ProductManager {
       }
    }
 }
-async function crearProducto() {
+function crearProducto() {
    try {
       const product = new ProductManager();
       product.create({
@@ -131,8 +130,8 @@ async function crearProducto() {
          stock: 55,
       });
       console.log(product.read());
-      product.readOne("1")
-      // await product.destroy();
+      // console.log(product.readOne(producto1.id)); estuve intentando declarando constantes a los productos pero no funciono y lo borre
+      // console.log(product.destroy(producto10.id));
    } catch (error) {
       throw error;
    }

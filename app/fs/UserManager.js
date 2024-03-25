@@ -114,8 +114,8 @@ async function crearUsuario() {
          role: "user",
       });
       await user.read();
-      await user.readOne("42b0072a992c4a9c302a924d");
-      // await user.destroy();
+      // await user.readOne("42b0072a992c4a9c302a924d");
+      // await user.destroy("");
    } catch (error) {
       throw error 
    }
